@@ -71,8 +71,10 @@ body {
 
 .reduce {
   margin-bottom: 20px;
-  margin: 20px 20px 30px 20px;
-  max-width: 300px;
+  /* margin: 20px 20px 30px 20px; */
+  /* max-width: 300px; */
+  width: 33.3333333%;
+  min-width: 300px;
 }
 .reduce img {
   width: 100px;
@@ -97,14 +99,22 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  width: 40%;
+  height: 30%;
+  min-width: 300px;
 }
 
 #part3-1 img {
+  display: block;
   border-radius: 10px;
-  width: 100px;
+  width: 50%;
+  height: 50%;
+  min-width: 200px;
 }
 
 #part3-2 {
-  max-width: 250px;
+  /* max-width: 250px; */
   padding: 10px;
+  width: 50%;
+  min-width: 200px;
 }
